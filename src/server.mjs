@@ -61,9 +61,9 @@ const server = http.createServer((req, res) => {
 					<body>
 							<h1>Submit Form</h1>
 							<form action="/submit" method="POST">
-									<label>Name: <input type="text" name="name" /></label><br>
-									<label>Email: <input type="email" name="email" /></label><br>
-									<button type="submit">Submit</button>
+								<label>Name: <input type="text" name="name" /></label><br>
+								<label>Email: <input type="email" name="email" /></label><br>
+								<button type="submit">Submit</button>
 							</form>
 					</body>
 					</html>
